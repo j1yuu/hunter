@@ -134,9 +134,13 @@ a {
     left: 0;
     top: 0;
 }
+.circles__container {   
+    overflow: hidden;
+}
 
 .circles__desc {
     display: block;
+    width: 144rem;
 }
 .circles__desc img,
 .circles__tablet img,
@@ -146,7 +150,7 @@ a {
 }
 
 .circles__desc .circles__second {
-    margin-top: -.25rem;
+    margin-top: -.3rem;
 }
 
 .circles__desc .circles__third {
@@ -172,7 +176,7 @@ a {
 /* about */
 
 .about {
-    margin-top: 15.3rem;
+    margin-top: 15.8rem;
     background: rgba(217, 217, 217, 0.80);
     padding: 6.5rem 0 6.4rem 26rem;
 }
@@ -487,6 +491,7 @@ a {
     }
     .circles__tablet {
         display: block;
+        width: 76.8rem;
     }
     .circles__ant {
         height: 87rem;
@@ -495,7 +500,7 @@ a {
     /* about 768 */
 
     .about {
-        margin-top: 10.6rem;
+        margin-top: 10.7rem;
         padding: 7.4rem 0 7.3rem 9.5rem;
     }
 
@@ -655,6 +660,7 @@ a {
 
     .circles__mobile {
         display: block;
+        width: 32rem;
     }
     .circles__mobile img {
         margin-top: -.06rem;
@@ -693,7 +699,7 @@ a {
     /* offers 320 */
 
     .offers {
-        padding-bottom: 10.5rem;
+        padding-bottom: 17.9rem;
     }
     .offers__triangle {   
         display: none;
@@ -806,7 +812,8 @@ a {
     }
     .footer__text {
         margin: 5.6rem auto 0;
-        width: 30.4rem;
+        width: 30rem;
+        letter-spacing: -0.03em;
         font-size: 1.2rem;
         text-align: center;
     }
