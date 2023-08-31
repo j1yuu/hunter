@@ -693,7 +693,7 @@ a {
     /* offers 320 */
 
     .offers {
-        padding-bottom: 4.9xrem;
+        padding-bottom: 10.5rem;
     }
     .offers__triangle {   
         display: none;
@@ -748,6 +748,7 @@ a {
         padding: 4.7rem 1.5rem 0;
         margin-bottom: 8rem;
         overflow: hidden;
+        margin-top: 0;
     }
     .ride__text {
         width: 29rem;
