@@ -634,6 +634,7 @@ a {
     }
     .line {
         width: 40rem;
+        height: auto;
         bottom: -.7rem;
         left: -23rem;
     }
@@ -733,6 +734,7 @@ a {
         display: block;
     }
     .offer__line {
+        height: auto;
         width: 55%;
         margin-bottom: 1.4rem;
     }
