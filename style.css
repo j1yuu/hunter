@@ -656,6 +656,15 @@ a {
     .circles__mobile {
         display: block;
     }
+    .circles__mobile img {
+        margin-top: -.06rem;
+    }
+
+    .circles__ant {
+        width: 15.7rem;
+        height: auto;
+        top: 112rem;
+    }
 
     /* about 320 */
 
@@ -684,7 +693,7 @@ a {
     /* offers 320 */
 
     .offers {
-        padding-bottom: 3.4rem;
+        padding-bottom: 4.9xrem;
     }
     .offers__triangle {   
         display: none;
